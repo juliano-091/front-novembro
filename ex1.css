@@ -1,0 +1,22 @@
+.topo{
+    background-color: rgb(79, 209, 79);
+    height: 50px;
+    align-content: center;
+}
+.menu {
+    width: 200px;
+    float: left;
+    border: solid rgb(28, 27, 30);
+}
+.conteudo{
+    float: left;
+    width: 400px;
+    border: solid rgb(28, 27, 30);
+}
+div{
+    
+    padding: 6px;
+}
+body {
+    margin: 0 ;
+}
