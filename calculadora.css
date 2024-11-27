@@ -18,6 +18,8 @@
     color: rgb(236, 236, 236);  
     position: absolute;
     top: 39px;
+    left: 165px;
+    cursor: pointer;
 
     
 }
@@ -34,6 +36,7 @@
     margin: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 15pt ;
+    cursor: pointer;
 }
 .laranja{
 
@@ -49,7 +52,7 @@
     font-size: 15pt ;
     color: rgb(236, 236, 236)    ;
     font-family: 'Roboto', sans-serif;
-    
+    cursor: pointer;
 }
 
 .bloco{
@@ -71,7 +74,8 @@
     text-align: left ;
     margin: 5px;
     font-size:  15pt;
-    color: rgb(236, 236, 236)    ;
+    color: rgb(236, 236, 236);
+    cursor: pointer;
 }
 .preto{
     border-radius: 35px;
@@ -84,5 +88,18 @@
     align-content: center;
     margin: 5px;
     font-size: 15pt ;
-    color: rgb(236, 236, 236)    ;
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: rgb(223, 230, 230);
+}
+.preto:hover{
+    background-color: rgb(223, 230, 230);
+}
+.zero:hover{
+    background-color: rgb(223, 230, 230);
+}
+.laranja:hover{
+    background-color: rgb(223, 230, 230);
 }

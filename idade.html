@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <Script>
+        function verifica (){
+            var idade;
+            idade = prompt("Digite sua idade");
+
+            if (idade < 2){
+                alert("Bebe")
+            }else if (idade < 12) {
+                alert("Criança")
+            }else if (idade < 18){
+                alert("Adolecente"
+                )
+            }else if (idade < 60){
+                alert("Adulto")
+            }else {
+                alert("Idoso") 
+            }
+            console.log(idade);
+        };
+    </Script>
+</head>
+<body>
+    <button onclick="verifica()" >Digite sua idade</button>
+</body>
+</html>

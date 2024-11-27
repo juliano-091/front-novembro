@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula6</title>
+    <style>
+        .texto{
+            border: 1px solid black;
+            margin-top: 20px;
+            padding: 6px;
+        }
+    </style>
+    <script>
+        function clique (){
+            var texto.toUpercase =  entrada.value;
+            resultado.innerText.toUpercase()= texto;
+        }
+        function soma(){
+
+            var res = parseInt(n1.value) + parseInt(n2.value);     
+            resultado.innerText = res;
+        }
+        function sub(){
+
+        var res = parseInt(n1.value) - parseInt(n2.value);     
+        resultado.innerText = res;
+        }
+        function div(){
+
+        var res = parseInt(n1.value) / parseInt(n2.value);     
+        resultado.innerText = res;
+        }
+        function mult(){
+
+        var res = parseInt(n1.value) * parseInt(n2.value);     
+        resultado.innerText = res;
+        }
+
+    </script>
+</head>
+<body>
+    <h1>Aula 6</h1>
+    <input id = "entrada" type="texto">
+    <button onclick="clique()">clique aqui</button>
+    <div id="resultado" class="texto">resultado</div>
+    <br><br>
+    <input id = "n1" type="text">
+    <input id = "n2" type="text">
+    <button onclick="soma()">soma</button>
+    <button onclick="sub()">sub</button>
+    <button onclick="div()">div</button>
+    <button onclick="mult()">multi</button>
+</body>
+</html>

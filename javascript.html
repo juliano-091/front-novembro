@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        function oi(){
+        var nome;
+        nome = prompt("digite Seu Nome");
+        
+        alert("ola "+ nome +"!!");
+        };
+
+        function maior(){
+            var n1 = prompt("digite num1");
+            var n2 = prompt("digite num2");
+            
+            if (n1 > n2){
+            alert("o numero maior é: " +n1)
+            }
+            else if(n1<2){
+                alert("o numero maior é: " +n2)
+            } else {
+                alert("Os numeros são iguais")
+            }
+
+        }
+        function tres (){
+            var n1 = prompt("digite num1");
+            var n2 = prompt("digite num2"); 
+            var n3 = prompt("digite num3");
+            
+            if (n1 > n2){
+                if(n1 >n3){
+                    alert("nuemro maior é "+n1) 
+                }
+            }else if(n2 > n3){
+                alert("nuemro maior é "+n2) 
+            }else {
+                alert("nuemro maior é "+n3)
+            }
+        }
+    </script>
+</head>
+<body>
+    <H1>JavaScript</H1>
+    <button onclick="oi()">clique aqui</button>
+    <button onclick="maior()">Teste o numero</button>
+    <button onclick="tres()">qual o Maior dos 3?</button>
+   
+</body>
+</html>
