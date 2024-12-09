@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula8</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="aula8.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Cadastro</h2>
+                <form >
+                    <div class="my-2">
+                        <label class="form-label">NOME:</label>
+                        <input id="nome" type="text" class="form-control" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label class="form-label">SEXO:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Masculino
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Feminino
+                            </label>
+                          </div>
+                    </div>
+                    <div class="my-2">
+                        <label class="form-label">E-MAIL:</label>
+                        <input id="email" class="form-control" placeholder="email@gmail.com">
+                    </div>
+                    <div class="my-2">
+                        <label class="form-label">CPF:</label>
+                        <input id="cpf" type="text" class="form-control" placeholder="123.456.789-99">
+                    </div>
+                    <divc class="my-5">
+                        <label class="form-label">CIDADE:</label>
+                        <select id="cidade" class="form-select" aria-label="Default select example">
+                            <option value="0" selected>Selecione </option>
+                            <option value="1">Curitiba</option>
+                            <option value="2">Fazenda Rio Grande</option>
+                            <option value="3">Araucária</option>
+                            <option value="4">São Jose do Pinhias</option>
+                            <option value="5">Colombo</option>
+                            <option value="6">Piraquara</option>
+                            <option value="7">Pinhais</option>
+                          </select>
+                    </div>
+                </form>
+            </div>
+            <div class="my-4">
+                <button id="salvar" class="btn btn-primary" type="button">Salvar</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

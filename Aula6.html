@@ -13,8 +13,8 @@
     </style>
     <script>
         function clique (){
-            var texto.toUpercase =  entrada.value;
-            resultado.innerText.toUpercase()= texto;
+            var texto =  entrada.value;
+            resultado.innerText= texto.toUpperCase();
         }
         function soma(){
 
@@ -36,6 +36,15 @@
         var res = parseInt(n1.value) * parseInt(n2.value);     
         resultado.innerText = res;
         }
+        function maiusculas(){
+            var texto = entrada.value;
+            resultado.innerText = texto.toUpperCase();
+        }
+        function pri (){
+            var text = entrada.value;
+            resultado.innerText = text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+        }
+
 
     </script>
 </head>
@@ -43,6 +52,8 @@
     <h1>Aula 6</h1>
     <input id = "entrada" type="texto">
     <button onclick="clique()">clique aqui</button>
+    <button onclick="maiusculas()">maiusculas</button>
+    <button onclick="pri()">primeira Letra</button>
     <div id="resultado" class="texto">resultado</div>
     <br><br>
     <input id = "n1" type="text">

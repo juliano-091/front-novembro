@@ -1,0 +1,38 @@
+.form{
+    background-color: rgb(199, 195, 191);
+    margin-top: 20px;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+    
+}
+.metros{
+    border-radius: 6px;
+    
+    margin-left: 10 px;
+    border-color: cadetblue;
+}
+.container{
+    margin: 0;
+}
+.lata{
+    border-color: rgb(218, 218, 219);
+    color: cadetblue;
+}
+.form1{
+    background-color: rgb(85, 129, 98);
+    margin-top: 20px;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+}
+.form2{
+    background-color: rgb(67, 80, 179);
+    margin-top: 20px;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+}
+.galao{
+    border-color: rgb(218, 218, 219);
+}
