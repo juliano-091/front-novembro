@@ -6,27 +6,30 @@
     <title>Tinta</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <script src="tinta.js">
-        console.log(mtrs);
      </script>
     <link rel="stylesheet" href="tinta.css">
 </head>
 <body>
     
    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+        <div id="superior" class="row">
+            <div  class="col-md-8">
                 <form class="form">
-                    <label >Insira quantos metros precisa pintar</label>
-                    <button class="salvar" onclick="calcula()" type="submit">CALCULAR</button>
+                    <label >Insira quantos metros precisa pintar</label> 
                     <br>
                     <input id="mtrs" type="text" class="metros" >
                  </form>
-            </div>
-         </div>
-   </div>
-   <div class="container">
-    <div class="row">
-        <div class="col-md-6">
+            </div>  
+            <div class="col-md-4">
+                <form class="form">
+                    <button class="salvar" onclick="calcula(event)" type="button">CALCULAR</button>
+                </form>
+            </div>    
+        </div>                    
+   </div>  
+   <div id= "superior" class="container">
+        <div class="row">
+         <div class="col-md-6">
             <form class="form1">
                 <label >Quantidade de latas:</label>
                 <br>
@@ -46,10 +49,19 @@
                 <label >O valor Total de Galões é:</label>
                 <br>
                 <input disabled type="text" class="galao" id="totalgalao">
-             </form>
-
+            </form>
         </div>
-     </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <form class="form">
+                    <label > Galão</label>
+                    <input type="text" id ="qtdLatas">
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>

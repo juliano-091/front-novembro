@@ -7,15 +7,17 @@
 // nome - emial - ciadade idade - telefone
 // API - comunicação de dados
 
-
 const express = require("express");
 const app = express();
 
+app.use(express.json());                      
+app.use(express.urlencoded({ extended: true }));
 
 app.post("/cadastro", function(req, res){
-    res.send("creat");
+    res.json(req.body)
+    // res.send("creat");
 });
-app.get("/lista", function(rq, res){
+app.get("/lista", function(req, res){
     res.send("lendo");
 });
 app.post("/atualizar", function(req, res){
@@ -28,3 +30,4 @@ app.post("/delete", function(req, res){
 app.listen(300,function(){
     console.log("servidor iniciado")
 })
+

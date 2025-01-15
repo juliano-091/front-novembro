@@ -29,7 +29,7 @@ app.post("/contato", function(req,res){
     })
     
 });
-
+                            // especifica a porta para iniciar o servidor
 app.listen(3000,function(){
     console.log("servidor iniciado");
 });
